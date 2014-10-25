@@ -1,6 +1,9 @@
 ## makeCacheMatrix function creates an object to store matrix and its inverse
 ## cacheSolve function check if inverse exists in makeCacheMatrix type object
 
+## based on Roger D. Peng's 'Caching the Mean of a Vector' code 
+## from https://class.coursera.org/rprog-008/human_grading/view/courses/972581/assessments/3/submissions
+
 ## new object to store matrix and its inverse
 
 makeCacheMatrix <- function(M = matrix()) {
